@@ -1,6 +1,6 @@
 let express = require('express');
 let app = express();
-//require('dotenv').config();
+require('dotenv').config();
 //console.log
 console.log('Hello World')
 
@@ -27,7 +27,7 @@ app.get('/json', (req, res)=>{
 		message:"HELLO JSON"
 		});
 	}
-})
+  })
 
 
 
@@ -42,17 +42,16 @@ app.get('/json', (req, res)=>{
 
 
 
+ 
 
 
 
 
+	
 
+	
 
-
-
-
-
-
+ 
 
 
 
